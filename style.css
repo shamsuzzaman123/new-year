@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+}
+
+/* banner style */
+
+
+.banner-text {
+    text-align: right;
+    padding: 200px 100px 200px 800px;
+    background-image: url(images/banner/banner1.png);
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    height: 500px;
+}
+
+.banner-title {
+    font-weight: 700;
+    font-size: 65px;
+}
+
+.banner-description {
+    font-weight: 400;
+    font-size: 16px;
+    color: #444343;
+    margin-bottom: 30px;
+}
+
+.btn-primary {
+    font-weight: 600;
+    font-size: 20px;
+    color: #FFFFFF;
+    background-color: rgba(255, 77, 0, 0.947);
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+}
+
+/* previous section */
+
+.previous {
+    display: flex;
+    padding: 100px;
+
+}
+
+.previous-description {
+    padding: 200px 100px;
+}
+
+.previous-description>h2 {
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+.previous-description>p,
+li {
+    font-weight: 400;
+    font-size: 16px;
+}
+
+/* plans style */
+
+.plans>h2 {
+    text-align: center;
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+
+.plans-item {
+    display: flex;
+    text-align: center;
+    padding: 0 230px;
+    justify-content: space-around;
+    margin-bottom: 100px;
+}
+
+/* mindset section */
+
+.mindset {
+    /* margin-bottom: 100px; */
+    background-image: url(images/watch.png);
+    background-repeat: no-repeat;
+    height: 400px;
+    padding: 80px;
+    margin-left: 100px;
+    /* background-image: linear-gradient(90deg, #aaf190 0%, #7070e6 35%, #8ddeee 100%); */
+}
+
+.mindset>h2 {
+    font-weight: 700;
+    font-size: 40px;
+    padding-right: 600px;
+    margin-bottom: 20px;
+    color: #FFFFFF;
+}
+
+
+/* footer */
+footer {
+    background-color: black;
+    color: #FFFFFF;
+    display: flex;
+    height: 407px;
+    /* padding: 200px 100px; */
+    justify-content: space-around;
+    padding-bottom: 50px;
+    margin-top: -150px;
+}
+
+.future {
+    padding: 100px 200px;
+}
+
+.future>h2 {
+    font-weight: 700;
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+
+.future>p {
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.future>a {
+    text-decoration: none;
+    gap: 5px;
+    margin-bottom: 30px;
+
+}
+
+.subscribe {
+    padding: 120px 200px;
+}
+
+.subscribe>h2 {
+    margin-bottom: 30px;
+}
+
+.subscribe>input {
+    margin-bottom: 5px;
+    border: none;
+    border-radius: 5px;
+    width: 225px;
+    height: 34px;
+    padding: 5px 10px;
+}
